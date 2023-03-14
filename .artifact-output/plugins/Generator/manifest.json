@@ -1,0 +1,136 @@
+{
+  "bundlePaths": {
+    "location": "assets/server/location.2c286e1f.js",
+    "locatorSearch": "assets/server/locatorSearch.25396c61.js"
+  },
+  "projectFilepaths": {
+    "templatesRoot": "src/templates",
+    "distRoot": "dist",
+    "hydrationBundleOutputRoot": "dist/hydration_templates",
+    "serverBundleOutputRoot": "dist/assets/server"
+  },
+  "bundlerManifest": {
+    "node_modules/@yext/pages/dist/vite-plugin/build/buildStart/rendering/renderer.js": {
+      "file": "assets/renderer/templateRenderer.js",
+      "src": "node_modules/@yext/pages/dist/vite-plugin/build/buildStart/rendering/renderer.js",
+      "isEntry": true,
+      "imports": [
+        "_index-8c34e822.js",
+        "_server.browser-b338a903.js"
+      ]
+    },
+    "src/images/map-pin.svg": {
+      "file": "assets/static/map-pin-6f3538cd.svg",
+      "src": "src/images/map-pin.svg"
+    },
+    "src/images/map-pin-hover.svg": {
+      "file": "assets/static/map-pin-hover-8fdc05b6.svg",
+      "src": "src/images/map-pin-hover.svg"
+    },
+    "src/images/close.svg": {
+      "file": "assets/static/close-0783f20a.svg",
+      "src": "src/images/close.svg"
+    },
+    "src/fonts/Larken-Medium.woff2": {
+      "file": "assets/static/Larken-Medium-2db0b914.woff2",
+      "src": "src/fonts/Larken-Medium.woff2"
+    },
+    "src/fonts/Campton-Medium.woff2": {
+      "file": "assets/static/Campton-Medium-96078d26.woff2",
+      "src": "src/fonts/Campton-Medium.woff2"
+    },
+    "src/images/pin.svg": {
+      "file": "assets/static/pin-efee9137.svg",
+      "src": "src/images/pin.svg"
+    },
+    "src/fonts/Larken-Medium.woff": {
+      "file": "assets/static/Larken-Medium-36675bdc.woff",
+      "src": "src/fonts/Larken-Medium.woff"
+    },
+    "src/fonts/Campton-Medium.woff": {
+      "file": "assets/static/Campton-Medium-4047e599.woff",
+      "src": "src/fonts/Campton-Medium.woff"
+    },
+    "dist/hydration_templates/location.tsx": {
+      "file": "assets/hydrate/location.5a3b97ff.js",
+      "src": "dist/hydration_templates/location.tsx",
+      "isEntry": true,
+      "imports": [
+        "_index-70fcdc4c.js",
+        "src/templates/location.tsx",
+        "_jsx-runtime-4bb07b71.js",
+        "_index-8c34e822.js"
+      ]
+    },
+    "src/templates/location.tsx": {
+      "file": "assets/server/location.2c286e1f.js",
+      "src": "src/templates/location.tsx",
+      "isEntry": true,
+      "imports": [
+        "_jsx-runtime-4bb07b71.js",
+        "_index-8c34e822.js"
+      ]
+    },
+    "dist/hydration_templates/locatorSearch.tsx": {
+      "file": "assets/hydrate/locatorSearch.f7e9de72.js",
+      "src": "dist/hydration_templates/locatorSearch.tsx",
+      "isEntry": true,
+      "imports": [
+        "_index-70fcdc4c.js",
+        "src/templates/locatorSearch.tsx",
+        "_jsx-runtime-4bb07b71.js",
+        "_index-8c34e822.js",
+        "_server.browser-b338a903.js"
+      ]
+    },
+    "src/templates/locatorSearch.tsx": {
+      "file": "assets/server/locatorSearch.25396c61.js",
+      "src": "src/templates/locatorSearch.tsx",
+      "isEntry": true,
+      "imports": [
+        "_index-8c34e822.js",
+        "_jsx-runtime-4bb07b71.js",
+        "_index-70fcdc4c.js",
+        "_server.browser-b338a903.js"
+      ],
+      "css": [
+        "assets/static/locatorSearch-6531939b.css"
+      ],
+      "assets": [
+        "assets/static/pin-efee9137.svg",
+        "assets/static/map-pin-6f3538cd.svg",
+        "assets/static/map-pin-hover-8fdc05b6.svg",
+        "assets/static/Larken-Medium-2db0b914.woff2",
+        "assets/static/Larken-Medium-36675bdc.woff",
+        "assets/static/Campton-Medium-96078d26.woff2",
+        "assets/static/Campton-Medium-4047e599.woff",
+        "assets/static/close-0783f20a.svg"
+      ]
+    },
+    "_index-8c34e822.js": {
+      "file": "assets/static/index-8c34e822.js"
+    },
+    "_server.browser-b338a903.js": {
+      "file": "assets/static/server.browser-b338a903.js",
+      "imports": [
+        "_index-8c34e822.js"
+      ]
+    },
+    "_index-70fcdc4c.js": {
+      "file": "assets/static/index-70fcdc4c.js",
+      "imports": [
+        "_index-8c34e822.js"
+      ]
+    },
+    "_jsx-runtime-4bb07b71.js": {
+      "file": "assets/static/jsx-runtime-4bb07b71.js",
+      "imports": [
+        "_index-8c34e822.js"
+      ]
+    },
+    "src/templates/locatorSearch.css": {
+      "file": "assets/static/locatorSearch-6531939b.css",
+      "src": "src/templates/locatorSearch.css"
+    }
+  }
+}
