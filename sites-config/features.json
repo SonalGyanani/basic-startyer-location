@@ -1,0 +1,46 @@
+{
+  "features": [
+    {
+      "name": "location",
+      "streamId": "add",
+      "templateType": "JS",
+      "alternateLanguageFields": [
+        "slug",
+        "name",
+        "id"
+      ],
+      "entityPageSet": {
+        "plugin": {}
+      }
+    },
+    {
+      "name": "locatorSearch",
+      "templateType": "JS",
+      "staticPage": {
+        "plugin": {}
+      }
+    }
+  ],
+  "streams": [
+    {
+      "$id": "add",
+      "fields": [
+        "id",
+        "uid",
+        "meta",
+        "name"
+      ],
+      "filter": {
+        "entityTypes": [
+          "location"
+        ]
+      },
+      "localization": {
+        "locales": [
+          "en_GB"
+        ],
+        "primary": false
+      }
+    }
+  ]
+}
